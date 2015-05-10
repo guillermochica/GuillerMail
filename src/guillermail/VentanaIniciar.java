@@ -161,7 +161,7 @@ public class VentanaIniciar extends javax.swing.JFrame {
             props = new Properties();
             props.put("mail.smtp.host", mailHost);
             props.put("mail.smtp.port", "587");
-            props.put("mail.from", user);
+            props.put("mail.from", user+"@correo.ugr.es");
             props.put("mail.smtp.starttls.enable", "true");
             props.put("mail.smtp.auth", "true");
             props.put("mail.debug", "true");
