@@ -25,9 +25,10 @@ public class test {
     
     public static void main(String[] args) {
         
+        //Cambiar user, pass y TO para probar
         
         String mailHost = "correo.ugr.es";
-        String user = "guillermochica@correo.ugr.es";
+        String user = "xxxx@correo.ugr.es"; 
         String pass = "xxxxxx";
         
         Properties props = new Properties();
@@ -52,7 +53,7 @@ public class test {
             msg.setFrom();
             
             msg.setRecipients(Message.RecipientType.TO,
-                          "1bgchica@gmail.com");
+                          "yyy.@ejemplo.com");
             msg.setSubject("JavaMail hello world example");
             msg.setSentDate(new Date());
             msg.setText("Funcionaaaaaaaaaa!!\n");
