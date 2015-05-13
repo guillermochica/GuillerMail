@@ -197,6 +197,7 @@ public class VentanaMensaje extends javax.swing.JFrame {
                 msg.setSubject(asunto);
                 msg.setSentDate(new Date());
                 msg.setText(mensaje + "\n" + firma + "\n");
+                msg.setHeader("X-Mailer", "GuillerMail"); 
 
                 System.out.println("Enviando mensaje...");
 
